@@ -20,6 +20,7 @@ public class Product {
     @NotBlank(message = "El nombre no puede estar en blanco")
     String nombre;
 
+    @NotBlank(message = "La descripcion no puede estar en blanco")
     String descripcion;
 
     @PositiveOrZero(message = "El precio debe ser cero o positivo")
